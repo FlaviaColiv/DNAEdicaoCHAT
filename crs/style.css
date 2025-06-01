@@ -14,9 +14,15 @@ html, body {
 
 main {
   min-height: 100vh;
+  flex: 1; /* faz o main ocupar o espaço restante */
+  padding: 20px;
 }
 
-
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 .cabecalho {
   color: #000;
@@ -48,6 +54,14 @@ p {
   background-position: center;
 }
 
+video {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+ 
 .footer {
   background-color: #f1f1f1;
   padding: 20px 10px;
