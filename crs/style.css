@@ -4,8 +4,19 @@ body {
   font-family: "Playfair Display", serif;
   text-align: center;
   padding: 50px;
-  background-color: #f8f9fa;
+  background-color: #f8f9fa; 
 }
+html, body {
+  height: auto !important;
+  min-height: 100vh !important;
+  overflow-x: hidden;
+}
+
+main {
+  min-height: 100vh;
+}
+
+
 
 .cabecalho {
   color: #000;
@@ -35,7 +46,6 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .footer {
