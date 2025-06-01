@@ -9,7 +9,7 @@ body {
 
 .cabecalho {
   color: #000;
-  margin-bottom: 15px;
+  margin-bottom: 2%;
 }
 
 .mensagem {
@@ -43,14 +43,14 @@ p {
   padding: 20px 10px;
   font-size: 15px;
   color: #333;
-  margin-top: 40px;
+  margin-top: 1%px;
 }
 
 .footer-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .footer-logo {
