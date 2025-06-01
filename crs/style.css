@@ -6,11 +6,10 @@ body {
   padding: 50px;
   background-color: #f8f9fa;
 }
-h1 {
-  color: #333;
-}
-p {
-  color: #555;
+
+.cabecalho {
+  color: #000;
+  margin-bottom: 15px;
 }
 
 .mensagem {
