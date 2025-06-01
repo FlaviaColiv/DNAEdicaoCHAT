@@ -36,3 +36,42 @@ p {
   background-position: center;
 
 }
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  font-size: 15px;
+  color: #333;
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img {
+  max-width: 11%;
+  height: auto;
+  max-width: 120px;
+}
+
+.footer-info {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 1vh;
+}
