@@ -13,6 +13,8 @@ html, body {
 }
 
 main {
+  display: flex;
+  align-items: center;
   min-height: 100vh;
   flex: 1; /* faz o main ocupar o espaço restante */
   padding: 20px;
@@ -63,8 +65,7 @@ p {
 video {
   width: 100%;
   max-width: 800px;
-  display: block;
-  margin: 0 auto;
+  display: flex;
   border-radius: 10px;
   margin: 15px;
 }
