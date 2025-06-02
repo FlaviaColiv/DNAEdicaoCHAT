@@ -3,13 +3,13 @@ Chat de Edição de DNA
 
 ![Banner](./crs/img/1.png)
 
-<img src="./crs/img/unijorge-seeklogo.png" alt="Logo da Faculdade" height="10" align-items="center">
+<img src="./crs/img/unijorge-seeklogo.png" alt="Logo da Faculdade" height="30" align-items="center">
 
-### Curso: BIOMEDICINA
+#### Curso: BIOMEDICINA
 
-## Projeto: DNA: IA e o Futuro
+### Projeto: DNA: IA e o Futuro
 
-#### Equipe: Flávia Conceição Oliveira
+##### Equipe: Flávia Conceição Oliveira
 
 REFERÊNCIA
 
