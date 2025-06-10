@@ -20,6 +20,22 @@ main {
   padding: 20px;
 }
 
+@media (max-width: 768px) {
+  .imagem-fundo {
+    background-image: url('./img/1.png');
+    
+  }
+  .site {
+    max-height: 100vh;
+  }
+}
+
+@media (min-width: 769px) {
+  .imagem-fundo {
+    background-image: url('./img/2.png');
+  }
+}
+
 .site {
   display: flex;
   flex-direction: column;
@@ -52,7 +68,6 @@ p {
 
 .imagem-fundo {
   display: flex;
-  background-image: url('./img/1.png'); 
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -60,6 +75,7 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: 25px;
 }
 
 video {
@@ -107,4 +123,21 @@ video {
   font-size: 12px;
   color: #777;
   margin-top: 1vh;
+}
+
+.seta-chat {
+  position: fixed;
+  bottom: 80px;     /* Ajuste conforme a posição do seu botão de chat */
+  right: -35px;      /* Alinhe com o botão de chat */
+  width: 200px;      /* Tamanho da imagem */
+  height: auto;
+  z-index: 9999;
+  cursor: pointer;
+  animation: bounce 1.5s infinite;
+}
+
+/* Animação leve para chamar atenção */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
 }
