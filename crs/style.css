@@ -28,6 +28,11 @@ main {
   .site {
     max-height: 100vh;
   }
+  .seta-chat {
+    bottom: 100px;  /* Mais acima, para alinhar melhor */
+    right: 15px;    /* Pode precisar ajustar dependendo do chat */
+    width: 60px;    /* Um pouco menor para celular */
+  }
 }
 
 @media (min-width: 769px) {
