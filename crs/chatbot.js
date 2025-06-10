@@ -22,3 +22,24 @@
       !n.__ow.asyncInit && e.init();
       n.OpenWidget = n.OpenWidget || e
     }(window,document,[].slice))
+
+
+
+  function posicionarSeta() {
+  const seta = document.querySelector(".seta-chat");
+  const botaoChat = document.querySelector(".openwidget-btn"); // Mude para o seletor do botão do chat
+
+  if (!seta || !botaoChat) return;
+
+  // Pega posição do botão na tela
+  const rect = botaoChat.getBoundingClientRect();
+
+  // Posiciona a seta um pouco acima e à direita do botão
+  seta.style.position = "fixed";
+  seta.style.left = (rect.left + rect.width / 2 - seta.offsetWidth / 2) + "px";
+  seta.style.top = (rect.top - seta.offsetHeight - 10) + "px"; // 10px acima do botão
+}
+
+// Atualiza posição quando a janela for redimensionada ou carregada
+window.addEventListener("resize", posicionarSeta);
+window.addEventListener("load", posicionarSeta);
