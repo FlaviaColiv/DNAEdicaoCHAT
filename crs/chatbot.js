@@ -43,3 +43,10 @@
 // Atualiza posição quando a janela for redimensionada ou carregada
 window.addEventListener("resize", posicionarSeta);
 window.addEventListener("load", posicionarSeta);
+
+document.querySelectorAll("button, div, a").forEach(el => {
+  if (el.innerText.toLowerCase().includes("chat") || el.className.includes("chat")) {
+    console.log(el);
+  }
+});
+
